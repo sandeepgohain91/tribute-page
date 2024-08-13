@@ -1,0 +1,102 @@
+/* Reset some default browser styles */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    box-sizing:box-border;
+  }
+  
+  /* Set font family for the entire document */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  /* Center all elements with class 'center' */
+  .center {
+    text-align:center;
+  }
+  
+  /* Main container styling */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Heading styling */
+  #heading {
+    margin-bottom: 20px;
+  }
+  
+  /* Image container styling */
+  #img-div {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  #image {
+    width:50%;
+    height: auto;
+    border-radius: 8px;
+    max-width:100%;
+  }
+  
+  #img-caption {
+    margin-top:10 px;
+    font-style: italic;
+  }
+  
+  /* Tribute info styling */
+  #tribute-info {
+    text-align: left;
+    margin: 20px 0;
+  }
+  
+  #tribute-info h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  #tribute-info ul {
+    list-style-type: none;
+  }
+  
+  #tribute-info li {
+    margin-bottom: 10px;
+  }
+  
+  /* Font styling for certain elements */
+  .font {
+    font-size: 1.1em;
+  }
+  
+  /* Link styling */
+  a {
+    color: #1a73e8;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Additional quote styling */
+  blockquote {
+    font-size: 1.2em;
+    margin: 20px 0;
+    padding: 10px 20px;
+    border-left: 5px solid #ccc;
+    background-color: #f9f9f9;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 600px) {
+    #image {
+      width: 100%;
+    }
+  }
+  
